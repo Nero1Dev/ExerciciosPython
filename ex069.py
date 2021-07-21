@@ -11,7 +11,7 @@ while True:
         maior_18 += 1
     if sexo == 'M':
         homens += 1
-    if sexo == 'F' and idade <= 20:
+    if sexo == 'F' and idade < 20:
         mulheres_novas += 1
     continuar = ' '
     while continuar not in 'SN':
