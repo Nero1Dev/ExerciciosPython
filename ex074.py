@@ -1,7 +1,12 @@
 from random import randint
-numero = ( )
 
-numero = int(input('::'))
-numero = int(input('::'))
+n = (randint(0, 10), randint(0, 10), randint(0, 10),
+randint(0, 10), randint(0, 10))
 
-print(numero[0])
+print(f'Sorteei ps valores: ', end=' ')
+
+for c in n:
+    print(f'{c}', end='/')
+
+print(f'\nO maior número foi {max(n)}')
+print(f'O menor número foi {min(n)}')
