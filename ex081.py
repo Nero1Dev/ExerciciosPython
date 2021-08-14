@@ -9,4 +9,5 @@ while True:
 print('=' * 50)
 print(f'Os valores digitador foram: {lista}')
 print(f'{len(lista)} Numero(s) foram digitados')
-print(f'Os números em ordem decrecentes fica: {sorted(lista, reverse=True)}')
+print(f'Os números em ordem decrecente fica: {sorted(lista, reverse=True)}')
+print('=' * 50)
