@@ -1,3 +1,4 @@
+#By Nero1Dev
 dados = list()
 
 while True:
