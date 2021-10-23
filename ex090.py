@@ -9,5 +9,5 @@ else:
     dados['situação'] = 'Reprovado'
 print('-=' * 20)
 for k, v in dados.items():
-    print(f'{k} é igual a {v}')
+    print(f' - {k} é igual a {v}')
     
